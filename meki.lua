@@ -85,7 +85,7 @@ local function WDPQ_fake_script() -- LoadMenuBtn.LoadBTn
 	local script = Instance.new('LocalScript', LoadMenuBtn)
 
 	
-	script.Parent.MouseButton1Click:(function()
+	script.Parent.MouseButton1Click:Connect(function()
 		print("Script By Agill")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/QuickGil/PsychoXploit-Cheat-Roblox/main/memek.lua"))()
 	end)
